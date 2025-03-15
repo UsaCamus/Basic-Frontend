@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+} 
+
+.widthHeight {
+    height: 100px;
+    width: 200px;
+    /* background-color: #06731c; */
+    background-image: url('https://images.unsplash.com/photo-1682695799561-033f55f75b25?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    color:rgb(0, 255, 0);
+    border-color: red;
+    border-width: 10px;
+    border-style: solid;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-top: 20px;
+    box-shadow: 87px 35px 87px -45px rgba(145,69,69,0.51);
+}
+
+#block1, #block2 {
+    display: inline;
+}
+
+#span1, #span2 {
+    display: block;
+}
+
+label {
+    display: block;
+}

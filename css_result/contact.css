@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Anuphan', sans-serif;
+}
+
+html, body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: SeaGreen;
+    border-top-right-radius: 20px 20px;
+    border-top-left-radius: 20px 20px;
+}
+
+header, main, #footerContent {
+    padding: 0 2rem;
+
+    @media (800px <= width) {
+        & {
+            padding: 2rem 10vw;
+        }
+    }
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #d5d5d5;
+    height: 180px;
+}
+
+a {
+    text-decoration: none;
+    color: Snow;
+}
+a:hover {
+  color: Silver; /* เปลี่ยนสีเมื่อลากเมาส์ไปวาง */
+}
+
+.link{
+    margin-left: 30px;
+}
+
+.btn {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(0, 70, 220);
+}
+
+.btn:hover {
+    background-color: rgb(0, 98, 255);
+}
+
+.btn:active {
+    box-shadow:
+        inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+        inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}

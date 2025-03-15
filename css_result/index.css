@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Anuphan', sans-serif;
+}
+
+html, body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: SeaGreen;
+    border-top-right-radius: 20px 20px;
+    border-top-left-radius: 20px 20px;
+}
+
+header, main, #footerContent {
+    padding: 0 2rem;
+
+    @media (800px <= width) {
+        & {
+            padding: 2rem 10vw;
+        }
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #d5d5d5;
+    height: 180px;
+}
+
+a {
+    text-decoration: none;
+    color: Snow;
+}
+a:hover {
+  color: Silver; /* เปลี่ยนสีเมื่อลากเมาส์ไปวาง */
+}
+
+.link{
+    margin-left: 30px;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pictureFavThumbnail , .foodFavThumbnail {
+    height: 250px;
+}
+
+.card {
+    margin: 20px;
+    padding: 8px;
+}

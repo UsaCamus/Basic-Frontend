@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Anuphan', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+}
+
+#kanbanBoard {
+    display: flex;
+    column-gap: 24px;
+    padding: 48px;
+    height: 100%;
+    width: 100%;
+}
+
+.swimlane {
+    border: 1px solid black;
+    flex-basis: 1;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.card {
+    padding: 16px;
+    margin: 4px;
+    border-radius: 20px;
+
+    .ToDo & {
+        background-color: gold;
+    }
+    .Doing & {
+        background-color: forestgreen;
+    }
+    .Done & {
+        background-color: black;
+        color: white;
+    }
+    .Hold & {
+        background-color: darkred;
+        color: white;
+    }
+}
+
+#dragged {
+    background: darkgray;
+}
+
+.titleTask {
+    text-align: center;
+    padding: 8px;
+    background-color: cadetblue;
+    color: white;
+}

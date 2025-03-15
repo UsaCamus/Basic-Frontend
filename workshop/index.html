@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sawasdee SHOP</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div><h1>Sawasdee SHOP</h1></div>
+        <div>
+            <button id="viewCart">Cart</button>
+            <div id="cartSummary">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Quality</th>
+                            <th>Price</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cartSummary_items">
+                    </tbody>
+                    <tfoot>
+                        <th colspan="2">Total Price</th>
+                        <td id="cartSummary_total">$0</td>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section id="productList">
+            <!-- <div class="productCard">
+                <img class="productThumbnail" />
+                <div class="productBottomSheet">
+                    <div class="productInfoContainer">
+                        <strong class="productName">iPhone</strong>
+                        <div class="productPrice">999 $</div>
+                    </div>
+                    <button id="addToCart">+</button>
+                </div>
+            </div> -->
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

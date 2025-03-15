@@ -1,0 +1,23 @@
+#div1 {
+    background-color: red;
+}
+
+#div2 {
+    background-color: blue;
+}
+
+.text {
+    color: white;
+}
+
+div {
+    /* เลือกแท็ก div ทุกอัน */
+}
+
+* {
+    /* เลือกทุกตัว */
+}
+
+div p {
+    color: red;
+}
